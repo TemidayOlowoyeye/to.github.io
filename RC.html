@@ -6,51 +6,79 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#contact {
+				display: flex;
+				justify-content: center;
+			}
+		</style>
+		<script>
+			function openPDF(pdfPath) {
+				window.open(pdfPath, '_blank');
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-		<div id="wrapper">
+			<div id="wrapper">
 
-			<!-- Header -->
-			<!-- Note: The "styleN" class below should match that of the banner element. -->
-			<header id="header" class="alt style2">
-				<a href="index.html" class="logo"><strong>Curriculum Vitae</strong> <span>Temidayo Olowoyeye</span></a>
-				<nav>
-					<a href="#menu">Menu</a>
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>RESUME</strong> <span>Temiday Olowoyeye</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="A.html">About</a></li>
+						<li><a href="Bb.html">Business Intelligence</a></li>
+						<li><a href="SQ.html">SQL</a></li>
+						<li><a href="Pp.html">Python</a></li>
+						<li><a href="RRS.html">Research</a></li>
+						<li><a href="RC.html">Resume</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#" class="button primary fit">Get Started</a></li>
+						
+					</ul>
 				</nav>
-			</header>
 
-			<!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="A.html">About</a></li>
-							<li><a href="Bb.html">Business Intelligence</a></li>
-							<li><a href="SQ.html">SQL</a></li>
-							<li><a href="Pp.html">Python</a></li>
-							<li><a href="RRS.html">Research</a></li>
-							<li><a href="RC.html">Resume</a></li>
-				</ul>
-				<ul class="actions stacked">
-					<li><a href="#" class="button primary fit">Get Started</a></li>
-				</ul>
-			</nav>
+				
+				<!-- Main -->
+				<div id="main">
 
-			<!-- Main -->
-			<div id="main">
-				<!-- One -->
-				<section id="one">
-					<div class="inner">
-						<!-- Embed PDF -->
-						<div id="pdf-container">
-							<embed src="images/TemidayoOlowoyeye_CV.pdf" type="application/pdf" width="100%" height="600px" />
-						</div>
-					</div>
-				</section>
+					<!-- One -->
+						<section id="one" class="tiles">
+							<article>
+								<span class="image">
+									<img src="images/Proooof.jpg" alt="" />
+								</span>
+								<header class="major">
+									<li><a onclick="openPDF('images/Temidayo_Olowoyeye__CV.pdf')" class="link" title="Open PDF">Professional CV</a></li>
+									<p></p>
+								</header>
+							</article>
+							<article>
+								<span class="image">
+									<img src="images/Academics.png" alt="" />
+								</span>
+								<header class="major">
+									<li><a onclick="openPDF('images/TEMIDAYO_OLOWOYEYE_CV_.pdf')" class="link" title="Open PDF">Academics CV</a></li>
+									<p></p>
+								</header>
+							</article>
+							</section>
+
+						
 			</div>
 
-			<!-- Scripts -->
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
